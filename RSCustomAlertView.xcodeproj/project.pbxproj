@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347764FE1FF1F08A0061A221 /* RSActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347764F81FF1F08A0061A221 /* RSActionSheetCell.m */; };
+		347764FF1FF1F08A0061A221 /* RSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 347764F91FF1F08A0061A221 /* RSActionSheet.m */; };
+		347765001FF1F08A0061A221 /* test02.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FA1FF1F08A0061A221 /* test02.png */; };
+		347765011FF1F08A0061A221 /* test03.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FB1FF1F08A0061A221 /* test03.png */; };
+		347765021FF1F08A0061A221 /* test01.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FD1FF1F08A0061A221 /* test01.png */; };
+		34E72ADA1FEA3C6200AA0E85 /* TestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E72AD61FEA3C6100AA0E85 /* TestImage.png */; };
+		34E72ADB1FEA3C6200AA0E85 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */; };
+		34E72ADC1FEA3C6200AA0E85 /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */; };
+		34F9C8FE1FBC0E690059829C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C8FD1FBC0E690059829C /* AppDelegate.m */; };
+		34F9C9041FBC0E690059829C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F9C9021FBC0E690059829C /* Main.storyboard */; };
+		34F9C9061FBC0E690059829C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F9C9051FBC0E690059829C /* Assets.xcassets */; };
+		34F9C9091FBC0E690059829C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F9C9071FBC0E690059829C /* LaunchScreen.storyboard */; };
+		34F9C90C1FBC0E690059829C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C90B1FBC0E690059829C /* main.m */; };
+		34F9C9161FBC0E690059829C /* RSCustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9151FBC0E690059829C /* RSCustomAlertViewTests.m */; };
+		34F9C9211FBC0E6A0059829C /* RSCustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9201FBC0E6A0059829C /* RSCustomAlertViewUITests.m */; };
+		34F9C9351FBC0E790059829C /* RSAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9301FBC0E790059829C /* RSAlert.m */; };
+		34F9C9361FBC0E790059829C /* RSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9321FBC0E790059829C /* RSButton.m */; };
+		34F9C9371FBC0E790059829C /* RSControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9341FBC0E790059829C /* RSControlView.m */; };
+		34F9C93A1FBC12A30059829C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9391FBC12A30059829C /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F9C9121FBC0E690059829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F9C8F11FBC0E690059829C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F9C8F81FBC0E690059829C;
+			remoteInfo = RSCustomAlertView;
+		};
+		34F9C91D1FBC0E6A0059829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F9C8F11FBC0E690059829C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F9C8F81FBC0E690059829C;
+			remoteInfo = RSCustomAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347764F71FF1F0890061A221 /* RSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSActionSheet.h; sourceTree = "<group>"; };
+		347764F81FF1F08A0061A221 /* RSActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSActionSheetCell.m; sourceTree = "<group>"; };
+		347764F91FF1F08A0061A221 /* RSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSActionSheet.m; sourceTree = "<group>"; };
+		347764FA1FF1F08A0061A221 /* test02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test02.png; sourceTree = "<group>"; };
+		347764FB1FF1F08A0061A221 /* test03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test03.png; sourceTree = "<group>"; };
+		347764FC1FF1F08A0061A221 /* RSActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSActionSheetCell.h; sourceTree = "<group>"; };
+		347764FD1FF1F08A0061A221 /* test01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test01.png; sourceTree = "<group>"; };
+		34E72AD61FEA3C6100AA0E85 /* TestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage.png; sourceTree = "<group>"; };
+		34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
+		34E72AD91FEA3C6200AA0E85 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		34F9C8F91FBC0E690059829C /* RSCustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCustomAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F9C8FC1FBC0E690059829C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34F9C8FD1FBC0E690059829C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34F9C9031FBC0E690059829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F9C9051FBC0E690059829C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F9C9081FBC0E690059829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F9C90A1FBC0E690059829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F9C90B1FBC0E690059829C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F9C9111FBC0E690059829C /* RSCustomAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCustomAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F9C9151FBC0E690059829C /* RSCustomAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCustomAlertViewTests.m; sourceTree = "<group>"; };
+		34F9C9171FBC0E690059829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F9C91C1FBC0E6A0059829C /* RSCustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F9C9201FBC0E6A0059829C /* RSCustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCustomAlertViewUITests.m; sourceTree = "<group>"; };
+		34F9C9221FBC0E6A0059829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F9C92F1FBC0E790059829C /* RSAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAlert.h; sourceTree = "<group>"; };
+		34F9C9301FBC0E790059829C /* RSAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAlert.m; sourceTree = "<group>"; };
+		34F9C9311FBC0E790059829C /* RSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSButton.h; sourceTree = "<group>"; };
+		34F9C9321FBC0E790059829C /* RSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSButton.m; sourceTree = "<group>"; };
+		34F9C9331FBC0E790059829C /* RSControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSControlView.h; sourceTree = "<group>"; };
+		34F9C9341FBC0E790059829C /* RSControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSControlView.m; sourceTree = "<group>"; };
+		34F9C9381FBC12A30059829C /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		34F9C9391FBC12A30059829C /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F9C8F61FBC0E690059829C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F9C90E1FBC0E690059829C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F9C9191FBC0E6A0059829C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347764F61FF1F0580061A221 /* RSSheet */ = {
+			isa = PBXGroup;
+			children = (
+				347764FD1FF1F08A0061A221 /* test01.png */,
+				347764FA1FF1F08A0061A221 /* test02.png */,
+				347764FB1FF1F08A0061A221 /* test03.png */,
+				347764F71FF1F0890061A221 /* RSActionSheet.h */,
+				347764F91FF1F08A0061A221 /* RSActionSheet.m */,
+				347764FC1FF1F08A0061A221 /* RSActionSheetCell.h */,
+				347764F81FF1F08A0061A221 /* RSActionSheetCell.m */,
+			);
+			path = RSSheet;
+			sourceTree = "<group>";
+		};
+		347765031FF1F42E0061A221 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				34E72AD61FEA3C6100AA0E85 /* TestImage.png */,
+				34E72AD91FEA3C6200AA0E85 /* CustomAlertView.h */,
+				34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */,
+				34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		34F9C8F01FBC0E690059829C = {
+			isa = PBXGroup;
+			children = (
+				34F9C8FB1FBC0E690059829C /* RSCustomAlertView */,
+				34F9C9141FBC0E690059829C /* RSCustomAlertViewTests */,
+				34F9C91F1FBC0E6A0059829C /* RSCustomAlertViewUITests */,
+				34F9C8FA1FBC0E690059829C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F9C8FA1FBC0E690059829C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F9C8F91FBC0E690059829C /* RSCustomAlertView.app */,
+				34F9C9111FBC0E690059829C /* RSCustomAlertViewTests.xctest */,
+				34F9C91C1FBC0E6A0059829C /* RSCustomAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F9C8FB1FBC0E690059829C /* RSCustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				347764F61FF1F0580061A221 /* RSSheet */,
+				34F9C92E1FBC0E790059829C /* RSAlert */,
+				34F9C8FC1FBC0E690059829C /* AppDelegate.h */,
+				34F9C8FD1FBC0E690059829C /* AppDelegate.m */,
+				34F9C9381FBC12A30059829C /* TableViewController.h */,
+				34F9C9391FBC12A30059829C /* TableViewController.m */,
+				347765031FF1F42E0061A221 /* CustomView */,
+				34F9C9021FBC0E690059829C /* Main.storyboard */,
+				34F9C9051FBC0E690059829C /* Assets.xcassets */,
+				34F9C9071FBC0E690059829C /* LaunchScreen.storyboard */,
+				34F9C90A1FBC0E690059829C /* Info.plist */,
+				34F9C90B1FBC0E690059829C /* main.m */,
+			);
+			path = RSCustomAlertView;
+			sourceTree = "<group>";
+		};
+		34F9C9141FBC0E690059829C /* RSCustomAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F9C9151FBC0E690059829C /* RSCustomAlertViewTests.m */,
+				34F9C9171FBC0E690059829C /* Info.plist */,
+			);
+			path = RSCustomAlertViewTests;
+			sourceTree = "<group>";
+		};
+		34F9C91F1FBC0E6A0059829C /* RSCustomAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F9C9201FBC0E6A0059829C /* RSCustomAlertViewUITests.m */,
+				34F9C9221FBC0E6A0059829C /* Info.plist */,
+			);
+			path = RSCustomAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		34F9C92E1FBC0E790059829C /* RSAlert */ = {
+			isa = PBXGroup;
+			children = (
+				34F9C92F1FBC0E790059829C /* RSAlert.h */,
+				34F9C9301FBC0E790059829C /* RSAlert.m */,
+				34F9C9311FBC0E790059829C /* RSButton.h */,
+				34F9C9321FBC0E790059829C /* RSButton.m */,
+				34F9C9331FBC0E790059829C /* RSControlView.h */,
+				34F9C9341FBC0E790059829C /* RSControlView.m */,
+			);
+			path = RSAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F9C8F81FBC0E690059829C /* RSCustomAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F9C9251FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertView" */;
+			buildPhases = (
+				34F9C8F51FBC0E690059829C /* Sources */,
+				34F9C8F61FBC0E690059829C /* Frameworks */,
+				34F9C8F71FBC0E690059829C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSCustomAlertView;
+			productName = RSCustomAlertView;
+			productReference = 34F9C8F91FBC0E690059829C /* RSCustomAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F9C9101FBC0E690059829C /* RSCustomAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F9C9281FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertViewTests" */;
+			buildPhases = (
+				34F9C90D1FBC0E690059829C /* Sources */,
+				34F9C90E1FBC0E690059829C /* Frameworks */,
+				34F9C90F1FBC0E690059829C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F9C9131FBC0E690059829C /* PBXTargetDependency */,
+			);
+			name = RSCustomAlertViewTests;
+			productName = RSCustomAlertViewTests;
+			productReference = 34F9C9111FBC0E690059829C /* RSCustomAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F9C91B1FBC0E6A0059829C /* RSCustomAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F9C92B1FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertViewUITests" */;
+			buildPhases = (
+				34F9C9181FBC0E6A0059829C /* Sources */,
+				34F9C9191FBC0E6A0059829C /* Frameworks */,
+				34F9C91A1FBC0E6A0059829C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F9C91E1FBC0E6A0059829C /* PBXTargetDependency */,
+			);
+			name = RSCustomAlertViewUITests;
+			productName = RSCustomAlertViewUITests;
+			productReference = 34F9C91C1FBC0E6A0059829C /* RSCustomAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F9C8F11FBC0E690059829C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = R.S;
+				TargetAttributes = {
+					34F9C8F81FBC0E690059829C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					34F9C9101FBC0E690059829C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F9C8F81FBC0E690059829C;
+					};
+					34F9C91B1FBC0E6A0059829C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F9C8F81FBC0E690059829C;
+					};
+				};
+			};
+			buildConfigurationList = 34F9C8F41FBC0E690059829C /* Build configuration list for PBXProject "RSCustomAlertView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F9C8F01FBC0E690059829C;
+			productRefGroup = 34F9C8FA1FBC0E690059829C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F9C8F81FBC0E690059829C /* RSCustomAlertView */,
+				34F9C9101FBC0E690059829C /* RSCustomAlertViewTests */,
+				34F9C91B1FBC0E6A0059829C /* RSCustomAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F9C8F71FBC0E690059829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E72ADC1FEA3C6200AA0E85 /* CustomAlertView.xib in Resources */,
+				34F9C9091FBC0E690059829C /* LaunchScreen.storyboard in Resources */,
+				34F9C9061FBC0E690059829C /* Assets.xcassets in Resources */,
+				347765011FF1F08A0061A221 /* test03.png in Resources */,
+				347765001FF1F08A0061A221 /* test02.png in Resources */,
+				34F9C9041FBC0E690059829C /* Main.storyboard in Resources */,
+				347765021FF1F08A0061A221 /* test01.png in Resources */,
+				34E72ADA1FEA3C6200AA0E85 /* TestImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F9C90F1FBC0E690059829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F9C91A1FBC0E6A0059829C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F9C8F51FBC0E690059829C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F9C9371FBC0E790059829C /* RSControlView.m in Sources */,
+				34F9C9351FBC0E790059829C /* RSAlert.m in Sources */,
+				347764FE1FF1F08A0061A221 /* RSActionSheetCell.m in Sources */,
+				34E72ADB1FEA3C6200AA0E85 /* CustomAlertView.m in Sources */,
+				347764FF1FF1F08A0061A221 /* RSActionSheet.m in Sources */,
+				34F9C90C1FBC0E690059829C /* main.m in Sources */,
+				34F9C9361FBC0E790059829C /* RSButton.m in Sources */,
+				34F9C93A1FBC12A30059829C /* TableViewController.m in Sources */,
+				34F9C8FE1FBC0E690059829C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F9C90D1FBC0E690059829C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F9C9161FBC0E690059829C /* RSCustomAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F9C9181FBC0E6A0059829C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F9C9211FBC0E6A0059829C /* RSCustomAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F9C9131FBC0E690059829C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F9C8F81FBC0E690059829C /* RSCustomAlertView */;
+			targetProxy = 34F9C9121FBC0E690059829C /* PBXContainerItemProxy */;
+		};
+		34F9C91E1FBC0E6A0059829C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F9C8F81FBC0E690059829C /* RSCustomAlertView */;
+			targetProxy = 34F9C91D1FBC0E6A0059829C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F9C9021FBC0E690059829C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F9C9031FBC0E690059829C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F9C9071FBC0E690059829C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F9C9081FBC0E690059829C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F9C9231FBC0E6A0059829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34F9C9241FBC0E6A0059829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F9C9261FBC0E6A0059829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = RSCustomAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCustomAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F9C9271FBC0E6A0059829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = RSCustomAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCustomAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34F9C9291FBC0E6A0059829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = RSCustomAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCustomAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCustomAlertView.app/RSCustomAlertView";
+			};
+			name = Debug;
+		};
+		34F9C92A1FBC0E6A0059829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = RSCustomAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCustomAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCustomAlertView.app/RSCustomAlertView";
+			};
+			name = Release;
+		};
+		34F9C92C1FBC0E6A0059829C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = RSCustomAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCustomAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSCustomAlertView;
+			};
+			name = Debug;
+		};
+		34F9C92D1FBC0E6A0059829C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = RSCustomAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCustomAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSCustomAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F9C8F41FBC0E690059829C /* Build configuration list for PBXProject "RSCustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F9C9231FBC0E6A0059829C /* Debug */,
+				34F9C9241FBC0E6A0059829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F9C9251FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F9C9261FBC0E6A0059829C /* Debug */,
+				34F9C9271FBC0E6A0059829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F9C9281FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F9C9291FBC0E6A0059829C /* Debug */,
+				34F9C92A1FBC0E6A0059829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F9C92B1FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F9C92C1FBC0E6A0059829C /* Debug */,
+				34F9C92D1FBC0E6A0059829C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F9C8F11FBC0E690059829C /* Project object */;
+}
