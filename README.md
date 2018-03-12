@@ -5,6 +5,8 @@
 ![](https://img.shields.io/badge/download-1.9MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
+[EN](#Requirements) | [中文](#中文说明)
+
 Daily development often encounters "simple" needs such as adding an image to the Alert or changing the color of the button. Today, it brings a packaged component that is highly similar to the system components and can fully meet the customization requirements.
 
 |1.List page | 2.System style | 3.Graphic style | 4.Custom style |
