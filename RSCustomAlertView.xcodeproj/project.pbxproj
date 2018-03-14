@@ -12,7 +12,7 @@
 		347765001FF1F08A0061A221 /* test02.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FA1FF1F08A0061A221 /* test02.png */; };
 		347765011FF1F08A0061A221 /* test03.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FB1FF1F08A0061A221 /* test03.png */; };
 		347765021FF1F08A0061A221 /* test01.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FD1FF1F08A0061A221 /* test01.png */; };
-		34E72ADA1FEA3C6200AA0E85 /* TestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E72AD61FEA3C6100AA0E85 /* TestImage.png */; };
+		34854778205923BC006F3254 /* TestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 34854777205923BC006F3254 /* TestImage.png */; };
 		34E72ADB1FEA3C6200AA0E85 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */; };
 		34E72ADC1FEA3C6200AA0E85 /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */; };
 		34F9C8FE1FBC0E690059829C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C8FD1FBC0E690059829C /* AppDelegate.m */; };
@@ -53,7 +53,7 @@
 		347764FB1FF1F08A0061A221 /* test03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test03.png; sourceTree = "<group>"; };
 		347764FC1FF1F08A0061A221 /* RSActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSActionSheetCell.h; sourceTree = "<group>"; };
 		347764FD1FF1F08A0061A221 /* test01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test01.png; sourceTree = "<group>"; };
-		34E72AD61FEA3C6100AA0E85 /* TestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage.png; sourceTree = "<group>"; };
+		34854777205923BC006F3254 /* TestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage.png; sourceTree = "<group>"; };
 		34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
 		34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
 		34E72AD91FEA3C6200AA0E85 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		347765031FF1F42E0061A221 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				34E72AD61FEA3C6100AA0E85 /* TestImage.png */,
+				34854777205923BC006F3254 /* TestImage.png */,
 				34E72AD91FEA3C6200AA0E85 /* CustomAlertView.h */,
 				34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */,
 				34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */,
@@ -310,11 +310,11 @@
 				34E72ADC1FEA3C6200AA0E85 /* CustomAlertView.xib in Resources */,
 				34F9C9091FBC0E690059829C /* LaunchScreen.storyboard in Resources */,
 				34F9C9061FBC0E690059829C /* Assets.xcassets in Resources */,
+				34854778205923BC006F3254 /* TestImage.png in Resources */,
 				347765011FF1F08A0061A221 /* test03.png in Resources */,
 				347765001FF1F08A0061A221 /* test02.png in Resources */,
 				34F9C9041FBC0E690059829C /* Main.storyboard in Resources */,
 				347765021FF1F08A0061A221 /* test01.png in Resources */,
-				34E72ADA1FEA3C6200AA0E85 /* TestImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +510,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHQ5WDNWKL;
 				INFOPLIST_FILE = RSCustomAlertView/Info.plist;
@@ -525,7 +524,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHQ5WDNWKL;
 				INFOPLIST_FILE = RSCustomAlertView/Info.plist;
