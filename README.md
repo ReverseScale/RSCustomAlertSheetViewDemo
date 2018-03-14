@@ -9,10 +9,10 @@
 
 Daily development often encounters "simple" needs such as adding an image to the Alert or changing the color of the button. Today, it brings a packaged component that is highly similar to the system components and can fully meet the customization requirements.
 
-|1.List page | 2.System style | 3.Graphic style | 4.Custom style |
-| ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/69387503.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/11757739.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/20992590.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/23432247.jpg) |
-| Built-in basic framework through storyboard | Customizable system style pop-up window | Customizable graphic style pop-up window | Customized style pop-up window |
+|1.List page | 2.System style | 3.Graphic style | 4.Custom style | 5.Bottom popup |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/51681420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/24254780.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/25821896.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/97719663.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/52885630.jpg) |
+| Built-in basic framework through storyboard | Customizable system style pop-up window | Customizable graphic style pop-up window | Customized style pop-up window | Custom bottom popup window |
 
 
 ### 🚀 Getting started
@@ -173,10 +173,10 @@ SOFTWARE.
 
 日常开发中经常遇到需要给 Alert 增加个图或者改个按钮颜色之类的“简单”需求，今天带来一款和系统部件高度相似又能充分满足定制化需求的封装部件。
 
-|1.列表页 |2.系统样式 |3.图文样式 |4.自定义样式 |
-| ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/69387503.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/11757739.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/20992590.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-11-15/23432247.jpg) |
-| 通过 storyboard 搭建基本框架 | 可定制系统样式弹窗 | 可定制图文样式弹窗 | 自定义样式弹窗 |
+|1.列表页 |2.系统样式 |3.图文样式 |4.自定义样式 |5.底部弹窗 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/51681420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/24254780.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/25821896.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/97719663.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/52885630.jpg) |
+| 通过 storyboard 搭建基本框架 | 可定制系统样式弹窗 | 可定制图文样式弹窗 | 自定义样式弹窗 | 自定义底部弹窗 |
 
 
 ### 🚀 准备开始
