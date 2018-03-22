@@ -106,12 +106,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		347764F61FF1F0580061A221 /* RSSheet */ = {
+		344AC053206350A000AE9F60 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				347764FD1FF1F08A0061A221 /* test01.png */,
 				347764FA1FF1F08A0061A221 /* test02.png */,
 				347764FB1FF1F08A0061A221 /* test03.png */,
+				34854777205923BC006F3254 /* TestImage.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		347764F61FF1F0580061A221 /* RSSheet */ = {
+			isa = PBXGroup;
+			children = (
 				347764F71FF1F0890061A221 /* RSActionSheet.h */,
 				347764F91FF1F08A0061A221 /* RSActionSheet.m */,
 				347764FC1FF1F08A0061A221 /* RSActionSheetCell.h */,
@@ -123,7 +131,7 @@
 		347765031FF1F42E0061A221 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				34854777205923BC006F3254 /* TestImage.png */,
+				344AC053206350A000AE9F60 /* Resources */,
 				34E72AD91FEA3C6200AA0E85 /* CustomAlertView.h */,
 				34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */,
 				34E72AD81FEA3C6200AA0E85 /* CustomAlertView.xib */,
