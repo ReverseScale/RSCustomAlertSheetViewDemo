@@ -16,6 +16,9 @@
 @interface TableViewController ()<UITextFieldDelegate, RSActionSheetDelegate>
 //自定义样式视图
 @property (nonatomic, strong) CustomAlertView *customAlertView;
+    
+@property (nonatomic, strong) RSActionSheet *actionSheet;
+    
 @end
 
 @implementation TableViewController
@@ -41,45 +44,51 @@ typedef enum SHEET_STYLE{
     // Dispose of any resources that can be recreated.
 }
 - (void)actionSheetActionWithType:(SHEET_STYLE)sheetType {
-    RSActionSheet *actionSheet = nil;
     switch (sheetType) {
         case 0:
             // 初始化 默认样式
-            actionSheet = [[RSActionSheet alloc] initWithTitle:@"默认样式" sheetTitles:@[@"sheet1",@"sheet2",@"sheet3"] cancleBtnTitle:@"取消" sheetStyle:(RSActionSheetDefault) delegate:nil];
+            self.actionSheet = [[RSActionSheet alloc] initWithTitle:@"默认样式" sheetTitles:@[@"sheet1",@"sheet2",@"sheet3"] cancleBtnTitle:@"取消" sheetStyle:(RSActionSheetDefault) delegate:nil];
             break;
         case 1:
             // 图标样式 要为actionSheet的iconArr属性赋值
-            actionSheet = [[RSActionSheet alloc] initWithTitle:@"图标" sheetTitles:nil cancleBtnTitle:@"取消" sheetStyle:(RSActionSheetIcon) delegate:nil];
+            self.actionSheet = [[RSActionSheet alloc] initWithTitle:@"图标" sheetTitles:nil cancleBtnTitle:@"取消" sheetStyle:(RSActionSheetIcon) delegate:nil];
             break;
         default:
             // 文字+图标样式 要为actionSheet的iconArr属性赋值
-            actionSheet = [[RSActionSheet alloc] initWithTitle:@"图标+标题" sheetTitles:@[@"sheet1",@"sheet2",@"sheet3"] cancleBtnTitle:@"取消" sheetStyle:(RSActionSheetIconAndTitle) delegate:nil];
+            self.actionSheet = [[RSActionSheet alloc] initWithTitle:@"图标+标题" sheetTitles:@[@"sheet1",@"sheet2",@"sheet3"] cancleBtnTitle:@"取消" sheetStyle:(RSActionSheetIconAndTitle) delegate:nil];
             break;
     }
+    
+    [self getActionSheetStyle];
+    
+    [self.actionSheet show];
+}
+    
+- (void)getActionSheetStyle {
+    
     /*
      * 设置Sheet样式
      */
-    actionSheet.isCorner = YES;
-    actionSheet.titleColor = [UIColor greenColor];
-    actionSheet.titleHeight = 100;
-    actionSheet.titlebgColor = [UIColor yellowColor];
-    actionSheet.subtitlebgColor = [UIColor cyanColor];
-    actionSheet.subtitleColor = [UIColor blackColor];
-    actionSheet.canclebgColor = [UIColor greenColor];
-    actionSheet.cancleHeight = 80;
+    self.actionSheet.isCorner = YES;
+    self.actionSheet.titleColor = [UIColor greenColor];
+    self.actionSheet.titleHeight = 100;
+    self.actionSheet.titlebgColor = [UIColor yellowColor];
+    self.actionSheet.subtitlebgColor = [UIColor cyanColor];
+    self.actionSheet.subtitleColor = [UIColor blackColor];
+    self.actionSheet.canclebgColor = [UIColor greenColor];
+    self.actionSheet.cancleHeight = 80;
     
     // 传入图片数组
     UIImage *icon1 = [UIImage imageNamed:@"test01"];
     UIImage *icon2 = [UIImage imageNamed:@"test02"];
     UIImage *icon3 = [UIImage imageNamed:@"test03"];
-    actionSheet.iconArr = [NSMutableArray arrayWithObjects:icon1,icon2,icon3, nil];
+    self.actionSheet.iconArr = [NSMutableArray arrayWithObjects:icon1,icon2,icon3, nil];
     
     /*
      * 设置代理 也可在初始化时设置代理
      */
-    actionSheet.delegate = self;
+    self.actionSheet.delegate = self;
     
-    [actionSheet show];
 }
 
 /*
