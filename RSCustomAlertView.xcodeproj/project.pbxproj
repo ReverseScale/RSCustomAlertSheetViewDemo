@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		347764FE1FF1F08A0061A221 /* RSActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347764F81FF1F08A0061A221 /* RSActionSheetCell.m */; };
-		347764FF1FF1F08A0061A221 /* RSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 347764F91FF1F08A0061A221 /* RSActionSheet.m */; };
+		0917F1A754F8EDC7CFA7C5D8 /* libPods-RSCustomAlertViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6CA3E4622F4C80382C458F /* libPods-RSCustomAlertViewTests.a */; };
+		345131E220887C5D001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345131E020887C5C001D186E /* LaunchScreen.storyboard */; };
+		345131E320887C5D001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 345131E120887C5C001D186E /* Default.png */; };
 		347765001FF1F08A0061A221 /* test02.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FA1FF1F08A0061A221 /* test02.png */; };
 		347765011FF1F08A0061A221 /* test03.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FB1FF1F08A0061A221 /* test03.png */; };
 		347765021FF1F08A0061A221 /* test01.png in Resources */ = {isa = PBXBuildFile; fileRef = 347764FD1FF1F08A0061A221 /* test01.png */; };
@@ -18,14 +19,12 @@
 		34F9C8FE1FBC0E690059829C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C8FD1FBC0E690059829C /* AppDelegate.m */; };
 		34F9C9041FBC0E690059829C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F9C9021FBC0E690059829C /* Main.storyboard */; };
 		34F9C9061FBC0E690059829C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F9C9051FBC0E690059829C /* Assets.xcassets */; };
-		34F9C9091FBC0E690059829C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F9C9071FBC0E690059829C /* LaunchScreen.storyboard */; };
 		34F9C90C1FBC0E690059829C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C90B1FBC0E690059829C /* main.m */; };
 		34F9C9161FBC0E690059829C /* RSCustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9151FBC0E690059829C /* RSCustomAlertViewTests.m */; };
 		34F9C9211FBC0E6A0059829C /* RSCustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9201FBC0E6A0059829C /* RSCustomAlertViewUITests.m */; };
-		34F9C9351FBC0E790059829C /* RSAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9301FBC0E790059829C /* RSAlert.m */; };
-		34F9C9361FBC0E790059829C /* RSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9321FBC0E790059829C /* RSButton.m */; };
-		34F9C9371FBC0E790059829C /* RSControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9341FBC0E790059829C /* RSControlView.m */; };
 		34F9C93A1FBC12A30059829C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F9C9391FBC12A30059829C /* TableViewController.m */; };
+		5987F8DC26711A8BEA531EB5 /* libPods-RSCustomAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F941DDE87779D6B9D9F9CF85 /* libPods-RSCustomAlertView.a */; };
+		AE1535E7C113A285B3F50918 /* libPods-RSCustomAlertViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6BB2729913DAE2B5403AC2 /* libPods-RSCustomAlertViewUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		347764F71FF1F0890061A221 /* RSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSActionSheet.h; sourceTree = "<group>"; };
-		347764F81FF1F08A0061A221 /* RSActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSActionSheetCell.m; sourceTree = "<group>"; };
-		347764F91FF1F08A0061A221 /* RSActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSActionSheet.m; sourceTree = "<group>"; };
+		345131E020887C5C001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345131E120887C5C001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		347764FA1FF1F08A0061A221 /* test02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test02.png; sourceTree = "<group>"; };
 		347764FB1FF1F08A0061A221 /* test03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test03.png; sourceTree = "<group>"; };
-		347764FC1FF1F08A0061A221 /* RSActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSActionSheetCell.h; sourceTree = "<group>"; };
 		347764FD1FF1F08A0061A221 /* test01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test01.png; sourceTree = "<group>"; };
 		34854777205923BC006F3254 /* TestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImage.png; sourceTree = "<group>"; };
 		34E72AD71FEA3C6200AA0E85 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		34F9C8FD1FBC0E690059829C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34F9C9031FBC0E690059829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34F9C9051FBC0E690059829C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34F9C9081FBC0E690059829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F9C90A1FBC0E690059829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34F9C90B1FBC0E690059829C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34F9C9111FBC0E690059829C /* RSCustomAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCustomAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,14 +67,17 @@
 		34F9C91C1FBC0E6A0059829C /* RSCustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F9C9201FBC0E6A0059829C /* RSCustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCustomAlertViewUITests.m; sourceTree = "<group>"; };
 		34F9C9221FBC0E6A0059829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34F9C92F1FBC0E790059829C /* RSAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAlert.h; sourceTree = "<group>"; };
-		34F9C9301FBC0E790059829C /* RSAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAlert.m; sourceTree = "<group>"; };
-		34F9C9311FBC0E790059829C /* RSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSButton.h; sourceTree = "<group>"; };
-		34F9C9321FBC0E790059829C /* RSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSButton.m; sourceTree = "<group>"; };
-		34F9C9331FBC0E790059829C /* RSControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSControlView.h; sourceTree = "<group>"; };
-		34F9C9341FBC0E790059829C /* RSControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSControlView.m; sourceTree = "<group>"; };
 		34F9C9381FBC12A30059829C /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34F9C9391FBC12A30059829C /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		38901CBF5D3774FD661D2FC0 /* Pods-RSCustomAlertViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCustomAlertViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSCustomAlertViewTests/Pods-RSCustomAlertViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		650F05EFC06F81A47A73BFA8 /* Pods-RSCustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCustomAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSCustomAlertView/Pods-RSCustomAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		711D6CAD729CDA834BD2326E /* Pods-RSCustomAlertViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCustomAlertViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSCustomAlertViewUITests/Pods-RSCustomAlertViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC80EECE60220A9BF4DA1B33 /* Pods-RSCustomAlertViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCustomAlertViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSCustomAlertViewTests/Pods-RSCustomAlertViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D40AD6A263D8C9F35162737D /* Pods-RSCustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCustomAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSCustomAlertView/Pods-RSCustomAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AB4299FEFB9E38F6558A99 /* Pods-RSCustomAlertViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSCustomAlertViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSCustomAlertViewUITests/Pods-RSCustomAlertViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F941DDE87779D6B9D9F9CF85 /* libPods-RSCustomAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSCustomAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6CA3E4622F4C80382C458F /* libPods-RSCustomAlertViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSCustomAlertViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6BB2729913DAE2B5403AC2 /* libPods-RSCustomAlertViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSCustomAlertViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5987F8DC26711A8BEA531EB5 /* libPods-RSCustomAlertView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0917F1A754F8EDC7CFA7C5D8 /* libPods-RSCustomAlertViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +101,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1535E7C113A285B3F50918 /* libPods-RSCustomAlertViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0321353F9F3DDB506BCE8FA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F941DDE87779D6B9D9F9CF85 /* libPods-RSCustomAlertView.a */,
+				FB6CA3E4622F4C80382C458F /* libPods-RSCustomAlertViewTests.a */,
+				FC6BB2729913DAE2B5403AC2 /* libPods-RSCustomAlertViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		344AC053206350A000AE9F60 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,17 +127,6 @@
 				34854777205923BC006F3254 /* TestImage.png */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		347764F61FF1F0580061A221 /* RSSheet */ = {
-			isa = PBXGroup;
-			children = (
-				347764F71FF1F0890061A221 /* RSActionSheet.h */,
-				347764F91FF1F08A0061A221 /* RSActionSheet.m */,
-				347764FC1FF1F08A0061A221 /* RSActionSheetCell.h */,
-				347764F81FF1F08A0061A221 /* RSActionSheetCell.m */,
-			);
-			path = RSSheet;
 			sourceTree = "<group>";
 		};
 		347765031FF1F42E0061A221 /* CustomView */ = {
@@ -146,6 +147,8 @@
 				34F9C9141FBC0E690059829C /* RSCustomAlertViewTests */,
 				34F9C91F1FBC0E6A0059829C /* RSCustomAlertViewUITests */,
 				34F9C8FA1FBC0E690059829C /* Products */,
+				B7430F4DC534416C5D7106E4 /* Pods */,
+				0321353F9F3DDB506BCE8FA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,8 +165,6 @@
 		34F9C8FB1FBC0E690059829C /* RSCustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				347764F61FF1F0580061A221 /* RSSheet */,
-				34F9C92E1FBC0E790059829C /* RSAlert */,
 				34F9C8FC1FBC0E690059829C /* AppDelegate.h */,
 				34F9C8FD1FBC0E690059829C /* AppDelegate.m */,
 				34F9C9381FBC12A30059829C /* TableViewController.h */,
@@ -171,7 +172,8 @@
 				347765031FF1F42E0061A221 /* CustomView */,
 				34F9C9021FBC0E690059829C /* Main.storyboard */,
 				34F9C9051FBC0E690059829C /* Assets.xcassets */,
-				34F9C9071FBC0E690059829C /* LaunchScreen.storyboard */,
+				345131E020887C5C001D186E /* LaunchScreen.storyboard */,
+				345131E120887C5C001D186E /* Default.png */,
 				34F9C90A1FBC0E690059829C /* Info.plist */,
 				34F9C90B1FBC0E690059829C /* main.m */,
 			);
@@ -196,17 +198,17 @@
 			path = RSCustomAlertViewUITests;
 			sourceTree = "<group>";
 		};
-		34F9C92E1FBC0E790059829C /* RSAlert */ = {
+		B7430F4DC534416C5D7106E4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34F9C92F1FBC0E790059829C /* RSAlert.h */,
-				34F9C9301FBC0E790059829C /* RSAlert.m */,
-				34F9C9311FBC0E790059829C /* RSButton.h */,
-				34F9C9321FBC0E790059829C /* RSButton.m */,
-				34F9C9331FBC0E790059829C /* RSControlView.h */,
-				34F9C9341FBC0E790059829C /* RSControlView.m */,
+				D40AD6A263D8C9F35162737D /* Pods-RSCustomAlertView.debug.xcconfig */,
+				650F05EFC06F81A47A73BFA8 /* Pods-RSCustomAlertView.release.xcconfig */,
+				38901CBF5D3774FD661D2FC0 /* Pods-RSCustomAlertViewTests.debug.xcconfig */,
+				BC80EECE60220A9BF4DA1B33 /* Pods-RSCustomAlertViewTests.release.xcconfig */,
+				711D6CAD729CDA834BD2326E /* Pods-RSCustomAlertViewUITests.debug.xcconfig */,
+				D5AB4299FEFB9E38F6558A99 /* Pods-RSCustomAlertViewUITests.release.xcconfig */,
 			);
-			path = RSAlert;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F9C9251FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertView" */;
 			buildPhases = (
+				E21382C963DEFB01D8F3C331 /* [CP] Check Pods Manifest.lock */,
 				34F9C8F51FBC0E690059829C /* Sources */,
 				34F9C8F61FBC0E690059829C /* Frameworks */,
 				34F9C8F71FBC0E690059829C /* Resources */,
+				766161D00F921EBBDF42BA51 /* [CP] Embed Pods Frameworks */,
+				C707D8A438B4FEDE26C44E4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F9C9281FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertViewTests" */;
 			buildPhases = (
+				A1A88DF9BC7C12C0EAB05DC8 /* [CP] Check Pods Manifest.lock */,
 				34F9C90D1FBC0E690059829C /* Sources */,
 				34F9C90E1FBC0E690059829C /* Frameworks */,
 				34F9C90F1FBC0E690059829C /* Resources */,
+				CBAFD8E2818D8938FBFA549E /* [CP] Embed Pods Frameworks */,
+				B81A50E779F6133D317E917F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34F9C92B1FBC0E6A0059829C /* Build configuration list for PBXNativeTarget "RSCustomAlertViewUITests" */;
 			buildPhases = (
+				A54D83046D39986485146EE7 /* [CP] Check Pods Manifest.lock */,
 				34F9C9181FBC0E6A0059829C /* Sources */,
 				34F9C9191FBC0E6A0059829C /* Frameworks */,
 				34F9C91A1FBC0E6A0059829C /* Resources */,
+				DC808FD581FA39CA19DF75EC /* [CP] Embed Pods Frameworks */,
+				32D38DCAC72FFF30FA928EC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,7 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E72ADC1FEA3C6200AA0E85 /* CustomAlertView.xib in Resources */,
-				34F9C9091FBC0E690059829C /* LaunchScreen.storyboard in Resources */,
+				345131E320887C5D001D186E /* Default.png in Resources */,
+				345131E220887C5D001D186E /* LaunchScreen.storyboard in Resources */,
 				34F9C9061FBC0E690059829C /* Assets.xcassets in Resources */,
 				34854778205923BC006F3254 /* TestImage.png in Resources */,
 				347765011FF1F08A0061A221 /* test03.png in Resources */,
@@ -342,18 +354,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D38DCAC72FFF30FA928EC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCustomAlertViewUITests/Pods-RSCustomAlertViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766161D00F921EBBDF42BA51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCustomAlertView/Pods-RSCustomAlertView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A88DF9BC7C12C0EAB05DC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSCustomAlertViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A54D83046D39986485146EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSCustomAlertViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81A50E779F6133D317E917F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCustomAlertViewTests/Pods-RSCustomAlertViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C707D8A438B4FEDE26C44E4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCustomAlertView/Pods-RSCustomAlertView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAFD8E2818D8938FBFA549E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCustomAlertViewTests/Pods-RSCustomAlertViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC808FD581FA39CA19DF75EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSCustomAlertViewUITests/Pods-RSCustomAlertViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21382C963DEFB01D8F3C331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSCustomAlertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34F9C8F51FBC0E690059829C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34F9C9371FBC0E790059829C /* RSControlView.m in Sources */,
-				34F9C9351FBC0E790059829C /* RSAlert.m in Sources */,
-				347764FE1FF1F08A0061A221 /* RSActionSheetCell.m in Sources */,
 				34E72ADB1FEA3C6200AA0E85 /* CustomAlertView.m in Sources */,
-				347764FF1FF1F08A0061A221 /* RSActionSheet.m in Sources */,
 				34F9C90C1FBC0E690059829C /* main.m in Sources */,
-				34F9C9361FBC0E790059829C /* RSButton.m in Sources */,
 				34F9C93A1FBC12A30059829C /* TableViewController.m in Sources */,
 				34F9C8FE1FBC0E690059829C /* AppDelegate.m in Sources */,
 			);
@@ -397,14 +551,6 @@
 				34F9C9031FBC0E690059829C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		34F9C9071FBC0E690059829C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34F9C9081FBC0E690059829C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +662,7 @@
 		};
 		34F9C9261FBC0E6A0059829C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40AD6A263D8C9F35162737D /* Pods-RSCustomAlertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +677,7 @@
 		};
 		34F9C9271FBC0E6A0059829C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650F05EFC06F81A47A73BFA8 /* Pods-RSCustomAlertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +692,7 @@
 		};
 		34F9C9291FBC0E6A0059829C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38901CBF5D3774FD661D2FC0 /* Pods-RSCustomAlertViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +708,7 @@
 		};
 		34F9C92A1FBC0E6A0059829C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC80EECE60220A9BF4DA1B33 /* Pods-RSCustomAlertViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +724,7 @@
 		};
 		34F9C92C1FBC0E6A0059829C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711D6CAD729CDA834BD2326E /* Pods-RSCustomAlertViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHQ5WDNWKL;
@@ -588,6 +739,7 @@
 		};
 		34F9C92D1FBC0E6A0059829C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AB4299FEFB9E38F6558A99 /* Pods-RSCustomAlertViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHQ5WDNWKL;
