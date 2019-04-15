@@ -11,7 +11,7 @@ Daily development often encounters "simple" needs such as adding an image to the
 
 |1.List page | 2.System style | 3.Graphic style | 4.Custom style | 5.Bottom popup |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/51681420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/24254780.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/25821896.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/97719663.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/52885630.jpg) |
+| ![](https://s2.ax1x.com/2019/04/15/AXhLSe.png) | ![](https://s2.ax1x.com/2019/04/15/AXhHJO.png) | ![](https://s2.ax1x.com/2019/04/15/AXhbWD.png) | ![](https://s2.ax1x.com/2019/04/15/AXhOQH.png) | ![](https://s2.ax1x.com/2019/04/15/AXhXyd.png) |
 | Built-in basic framework through storyboard | Customizable system style pop-up window | Customizable graphic style pop-up window | Customized style pop-up window | Custom bottom popup window |
 
 
