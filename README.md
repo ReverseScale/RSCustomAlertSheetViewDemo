@@ -175,7 +175,7 @@ SOFTWARE.
 
 |1.列表页 |2.系统样式 |3.图文样式 |4.自定义样式 |5.底部弹窗 |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/51681420.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/24254780.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/25821896.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/97719663.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-14/52885630.jpg) |
+| ![](https://s2.ax1x.com/2019/04/15/AXhLSe.png) | ![](https://s2.ax1x.com/2019/04/15/AXhHJO.png) | ![](https://s2.ax1x.com/2019/04/15/AXhbWD.png) | ![](https://s2.ax1x.com/2019/04/15/AXhOQH.png) | ![](https://s2.ax1x.com/2019/04/15/AXhXyd.png) |
 | 通过 storyboard 搭建基本框架 | 可定制系统样式弹窗 | 可定制图文样式弹窗 | 自定义样式弹窗 | 自定义底部弹窗 |
 
 
